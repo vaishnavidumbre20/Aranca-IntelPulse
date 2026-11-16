@@ -12,7 +12,7 @@ from google import genai
 load_dotenv()
 
 
-def generate_with_retry(client, prompt, model="gemini-3.6-flash", attempts=3):
+def generate_with_retry(client, prompt, model="gemini-3.7-flash", attempts=3):
     """Retry temporary Gemini overload/rate-limit errors with exponential backoff."""
     last_error = None
     for attempt in range(attempts):
