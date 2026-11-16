@@ -220,9 +220,9 @@ for col, title, desc in capabilities:
 
 with st.expander("How the agent works", expanded=False):
     flow1, flow2, flow3 = st.columns(3)
-    flow1.markdown("**01 · Discover & collect**\\n\\nDaily collection from public sources across selected competitors.")
-    flow2.markdown("**02 · Synthesize with AI**\\n\\nCategorize and summarize by company, geography and business segment.")
-    flow3.markdown("**03 · Deliver PL insights**\\n\\nPriority signals with publication dates and source links for validation.")
+    flow1.markdown("**01 · Discover & collect Daily collection from public sources across selected competitors.")
+    flow2.markdown("**02 · Synthesize with AI Categorize and summarize by company, geography and business segment.")
+    flow3.markdown("**03 · Deliver PL insights Priority signals with publication dates and source links for validation.")
 
 # ---------------- HEADER / STATUS ----------------
 st.markdown('<div class="page-title">Competitive Intelligence</div><div class="page-sub">A focused view of competitor developments, emerging signals and AI-generated implications for Aranca Growth Advisory.</div>', unsafe_allow_html=True)
